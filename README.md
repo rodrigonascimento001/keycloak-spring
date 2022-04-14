@@ -7,10 +7,10 @@ docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin
  ```
 
 # Configuração do keycloak
-1 - criar uma role - "user"
-2 - cria usuario "username"
-3 - adiciona a role ao usuario criado, aba rolemappings do menu usuario
-4 - criar client - > client aplicacao springboot "springboot-app"
+- criar uma role - "user"
+- cria usuario "username"
+- adiciona a role ao usuario criado, aba rolemappings do menu usuario
+- criar client - > client aplicacao springboot "springboot-app"
 
 # SpringBoot
 - cria projeto springboot no spring initlzr depedencias spring web e thymeleaf;
