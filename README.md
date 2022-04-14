@@ -69,7 +69,17 @@ keycloak.security-constraints[0].authRoles[0]=user
 keycloak.security-constraints[0].securityCollections[0].patterns[0]=/security/*
 ```
 - Editar o pom.xml
+
+```html
+<dependencies>
+  <dependency>
+    <groupId>org.keycloak</groupId>
+    <artifactId>keycloak-spring-boot-starter</artifactId>
+  </dependency>
+<dependencies>
 ```
+
+```html
 <dependencyManagement>
     <dependencies>
         <dependency>
@@ -81,13 +91,6 @@ keycloak.security-constraints[0].securityCollections[0].patterns[0]=/security/*
         </dependency>
     </dependencies>
 </dependencyManagement>
-```
-```
-<dependency>
-  <groupId>org.keycloak</groupId>
-  <artifactId>keycloak-spring-boot-starter</artifactId>
-</dependency>
-
 ```
 # execute o projeto:
 ```shell
