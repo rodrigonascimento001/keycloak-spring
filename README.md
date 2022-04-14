@@ -82,7 +82,13 @@ keycloak.security-constraints[0].securityCollections[0].patterns[0]=/security/*
     </dependencies>
 </dependencyManagement>
 ```
+```
+<dependency>
+  <groupId>org.keycloak</groupId>
+  <artifactId>keycloak-spring-boot-starter</artifactId>
+</dependency>
 
+```
 # execute o projeto:
 ```shell
 mvn clean spring-boot:run
