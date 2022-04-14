@@ -2,7 +2,9 @@
 Projeto exemplo autenticação usando keycloak com springboot
 
 # Instalação do keycloak no docker
+ ```shell
 docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:17.0.1 start-dev
+ ```
 
 # Configuração do keycloak
 1 - criar uma role - "user"
